@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />      
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1 style="">Aplicacion 03</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+    <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-check ui-btn-inline ui-shadow" data-transition="flip">Siguiente Pagina</a>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>@José Roberto Ramírez Pérez</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ <!--Page2-->
+<div data-role="page" id="page2" >   
+  <div data-role="header">
+    <h1>Aplicacion 03</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+    <a href="#principal" class="ui-btn ui-btn-icon-left ui-icon-back ui-btn-inline ui-shadow"   data-transition="flip
+    ">Página principal</a>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>@José Roberto Ramírez Pérez</h1>
+  </div>
+ </div> <!--EndPage2-->
+   
+ </body>
+</html> 
